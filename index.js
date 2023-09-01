@@ -81,8 +81,11 @@ imprimirPalabra(" vieja loca ", 3);
 function mostrarLista(array){
     console.log("Ejercicio 6:")
     console.log("Array de la función");
-    for(let i = 0; i < array.length; i++){
-        console.log(array[i])
+    // for(let i = 0; i < array.length; i++){
+    //     console.log(array[i])
+    // }
+      for(let i of array){
+        console.log(i)
     }
 }
 
